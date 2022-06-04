@@ -1,0 +1,27 @@
+.lead {
+    
+    margin-right: 148px;
+    margin-left: 148px;
+    width: calc(100% - 296px);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+    
+}
+
+@media screen and (max-width: 1279px) {
+    .lead {
+        margin-right: 48px;
+        margin-left: 48px;
+        width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .lead {
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+}

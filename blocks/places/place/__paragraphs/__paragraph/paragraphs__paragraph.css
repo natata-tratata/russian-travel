@@ -1,0 +1,23 @@
+.paragraphs__paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.34px;
+}
+
+.paragraphs__paragraph:first-child {
+    margin-bottom: 26px;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .paragraphs__paragraph {
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+
+    .paragraphs__paragraph:first-child {
+        margin-bottom: 25px;
+    }
+
+
+}

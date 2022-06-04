@@ -1,0 +1,39 @@
+.place {
+    display: grid;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+    grid-template-columns: 487fr 513fr;
+        grid-template-rows: max-content max-content;
+        grid-template-areas: 
+        "place__title place__website"
+        "place__image paragraphs";
+
+        column-gap: 40px;
+        row-gap: 48px;
+        margin-bottom: 80px;
+}
+
+.place:last-child{
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .place{
+    margin-bottom: 73px;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .place{
+    grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, max-content);
+        margin-bottom: 50px;
+        grid-template-areas: 
+        "place__title"
+        "place__website"
+        "place__image"
+        "paragraphs";
+}
+}

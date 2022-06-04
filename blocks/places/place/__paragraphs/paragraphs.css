@@ -1,0 +1,9 @@
+.paragraphs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    grid-area: paragraphs;
+    box-sizing: border-box;
+    width: 100%;
+}
