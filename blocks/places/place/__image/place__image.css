@@ -1,5 +1,5 @@
-.place__image{
-    grid-area: place__image;
+.place__image {
+  grid-area: place__image;
   margin-left: 0;
   box-sizing: border-box;
   max-width: 100%;

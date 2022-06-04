@@ -1,4 +1,4 @@
-.place__website{
+.place__website {
     grid-area: place__website;
     display: flex;
     flex-direction: column;
@@ -6,4 +6,4 @@
     align-content: flex-end;
     box-sizing: border-box;
     width: 100%;
-    }
+}
