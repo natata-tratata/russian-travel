@@ -2,6 +2,8 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 29.34px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .paragraphs__paragraph:first-child {

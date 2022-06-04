@@ -1,19 +1,16 @@
 .lang-link {
-
-color: #FFFFFF;
-font-weight: 400;
-font-size: 24px;
+    font-weight: 400;
+    font-size: 24px;
 }
 
-.lang-link:first-child{
-text-decoration: underline;
-margin-right: 18px;
+.lang-link:first-child {
+    text-decoration: underline;
+    margin-right: 18px;
 }
 
 
-@media screen and (max-width: 767px)
-{
-    .lang-link{
+@media screen and (max-width: 767px) {
+    .lang-link {
         font-size: 18px;
     }
-  }
+}

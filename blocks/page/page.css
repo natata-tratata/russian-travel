@@ -8,6 +8,4 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }

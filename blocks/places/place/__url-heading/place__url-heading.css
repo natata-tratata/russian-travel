@@ -1,7 +1,7 @@
-.place__url-heading{
-  color:  #AAAAAA;
+.place__url-heading {
+  color: #AAAAAA;
   font-size: 12px;
-  font-weight: 12px;
-  margin: 0;
-  
+  font-weight: 400;
+  margin-bottom: 12px;
+  margin-top: 0;
 }
