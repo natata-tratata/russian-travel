@@ -1,13 +1,13 @@
 .intro__text {
-    margin-top: 40px;
-    margin-bottom: 33px;
-    font-size: 16px;
-    line-height: 163%;
-    font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 33px;
+  font-size: 16px;
+  line-height: 163%;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 767px) {
-    .intro__text {
-        margin-bottom: 34px;
+  .intro__text {
+    margin-bottom: 34px;
     }
 }

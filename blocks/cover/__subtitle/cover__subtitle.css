@@ -9,7 +9,6 @@
   margin: 0;
 }
 
-
 @media screen and (max-width: 1023px) {
   .cover__subtitle {
     font-size: 18px;
@@ -18,7 +17,6 @@
     min-height: 66px;
   }
 }
-
 
 @media screen and (max-width: 767px) {
   .cover__subtitle {

@@ -1,18 +1,18 @@
 .cover {
-    box-sizing: border-box;
-    margin-right: 48px;
-    margin-left: 48px;
-    max-width: calc(100% - 96px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+  box-sizing: border-box;
+  margin-right: 48px;
+  margin-left: 48px;
+  max-width: calc(100% - 96px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 @media screen and (max-width: 1279px) {
-    .cover {
-        margin-right: 0;
-        margin-left: 0;
-        max-width: 100%;
+  .cover {
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100%;
     }
 }
